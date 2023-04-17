@@ -156,10 +156,12 @@ body {
 
 .content{
     line-height: 1.5;
+    color: var(--color-slate);
 }
 
 .light-content{
     color: var(--color-cloud);
+
 }
 
 .page-footer{
