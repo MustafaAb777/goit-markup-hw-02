@@ -74,6 +74,9 @@ body {
     line-height: 1.2;
     text-decoration: none;
     text-transform: none;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
+    
 }
 
 .text-style-subtitle{
@@ -83,6 +86,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     color: var(--color-navy-blue);
 }
 
@@ -95,6 +99,12 @@ body {
     list-style: none;
     list-style-image: none;
 
+}
+
+.team-item{
+    list-style: none;
+    list-style-image: none;
+    background-color: var(--color-white);
 }
 
 .contacts-link{
@@ -113,10 +123,16 @@ body {
     background-color: var(--color-navy-blue); ;
 }
 
+.team-section{
+    background-color: var(--color-cloud);
+}
+
 .hero-title{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center
+    letter-spacing: 0.02em;
     color: var(--color-white);
 }
 
