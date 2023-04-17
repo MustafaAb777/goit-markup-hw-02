@@ -17,7 +17,8 @@
 
 body {
     font-family: Roboto, sans-serif;
-    color: var(--color-navy-blue);
+    color: var(--color-slate);
+    background-color: var(--color-white);
     letter-spacing: 0.02em;
     text-decoration: none;
     list-style: none;
@@ -28,14 +29,18 @@ body {
 /* index.html */
 
 .logo{
-    font-family: 'Raleway';
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-decoration: inherit;
+    line-height: 1.17;
+    letter-spacing: 0.03em;   
     text-transform: uppercase;
     color: var(--color-iris);
+}
+
+.link{
+    text-decoration: none;
+
 }
 
 .logo-dark{
@@ -74,7 +79,7 @@ body {
     color: var(--color-navy-blue);
 }
 
-.body-list {
+.list {
     list-style: none;
     list-style-image: none;
 }
@@ -123,7 +128,6 @@ body {
 
 .content{
     line-height: 1.5;
-    color: var(--color-slate);
 }
 
 .light-content{
