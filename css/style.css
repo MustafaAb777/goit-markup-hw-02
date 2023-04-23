@@ -42,7 +42,7 @@ body {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
 
 
 
@@ -102,9 +102,18 @@ button{
     
 }
 
-.header-nav-list {
+.header-nav{
     display: flex;
     align-items: center;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-nav-item {
+    padding: 24px 0;
 }
 
 .contacts-list {
@@ -127,6 +136,7 @@ button{
 
 
 
+
 .logo-dark{
     color: var(--color-navy-blue);
 }
@@ -135,22 +145,16 @@ button{
     color: var(--color-cloud);
 }
 
-.header-nav{
-    margin-right: auto;
 
-}
 
-.header-nav-item{
-    /* margin-right: auto; */
-}
+
 
 .header-nav-link{
-    display: block;
+    display: flex;
     font-weight: 500;
     line-height: 1.5;
     list-style: inherit;
     color: var(--color-navy-blue);
-    margin-right: 40px;
 }
 
 .header-nav-link:hover,
